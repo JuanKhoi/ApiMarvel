@@ -1,9 +1,42 @@
 
 body {
-background-color: red;
-};
+background: #ECF0F1;
+}
 
+.header{
+	text-align: center;
+}
 
-h1{
-	color: green;
+.header-logo{
+	width: 20%;
+	display: block;
+	margin: 0 auto;
+}
+
+.header-img{
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+	border-radius: 35%;
+}
+
+.card{
+	background: #e74c3c;
+    width: 190px;
+    padding: 24px;
+    color: white;
+    margin: 14px;
+    border-radius: 12px;
+    display: inline-block;
+}
+
+.card-img{
+	width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.container{
+	    max-width: 920px;
+    margin: 0 auto;
+    text-align: center;
 }
